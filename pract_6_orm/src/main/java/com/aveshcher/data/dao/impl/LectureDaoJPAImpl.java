@@ -1,5 +1,7 @@
-package com.aveshcher.data;
+package com.aveshcher.data.dao.impl;
 
+import com.aveshcher.data.model.Lecture;
+import com.aveshcher.data.dao.LecturesDao;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -7,7 +9,7 @@ import javax.persistence.*;
 
 @Repository
 @Transactional
-public class LectureDaoJPAImpl implements LecturesDao{
+public class LectureDaoJPAImpl implements LecturesDao {
     @PersistenceContext
     private EntityManager em;
 

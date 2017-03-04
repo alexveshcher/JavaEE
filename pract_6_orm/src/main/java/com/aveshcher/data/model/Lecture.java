@@ -1,4 +1,4 @@
-package com.aveshcher.data;
+package com.aveshcher.data.model;
 
 import javax.persistence.*;
 

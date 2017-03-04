@@ -1,4 +1,6 @@
-package com.aveshcher.data;
+package com.aveshcher.data.dao;
+
+import com.aveshcher.data.model.Lecture;
 
 public interface LecturesDao {
 

@@ -1,7 +1,7 @@
 package com.aveshcher.worker;
 
-import com.aveshcher.data.Lecture;
-import com.aveshcher.data.LecturesDao;
+import com.aveshcher.data.model.Lecture;
+import com.aveshcher.data.dao.LecturesDao;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class LecturesWorker {
